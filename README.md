@@ -24,3 +24,5 @@ Se anotaran los que ya repasamos.
 > Imagenes y atributos
 > Crear enlaces externos
 > Enlaces y seciones internas
+> Enlaces con imagenes
+> Crear enlaces con #
