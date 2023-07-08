@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
+    <!--! head es la metadata-->
     <head>
-
+        <title>AppdePrueba</title>
     </head>
+    <!--! Body es para la estructura de la pagina-->
     <body>
         <h1> Hola, Mundo</h1>
         <h2> Hola, Mundo</h2>
         <h3> Hola, Mundo</h3>
         <h4> Hola, Mundo</h4>
         <h6> Hola, Mundo</h6>
-    </body>
-    <body>
+    
+    
         <h1>App de Gatos</h1>
         <p>Haz clicl aqui para ver mas imagenes de gatos</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sapiente debitis aut, tempora natus neque? Veniam ea voluptatum porro fuga ab similique voluptates quia incidunt nostrum placeat, rerum, pariatur quam?</p>
@@ -58,39 +60,80 @@
 
             <!--! Como crear enlaces muertos -->
             <!-- Pero redirige a la misma pagina -->
-            <p> Aqui este texto debrea convertirse en un <a href="#">link funcional.</a></p>
+            <p> Aqui este texto debrea convertirse en un <a href="#">link <strong>NO</strong> funcional.</a></p>
+
+
+
+            <!--* Agregar una linea horizontal con etiqueta HR-->
+            <hr>
 
             <!--* Listas no ordenadas -->
+                    <!--* Elemento DIV contenedor generico, para crear estructuras complejas-->
+                <div>
+                    <h3>Lista de gatos</h3>
+                    <!-- * Para letras cursivas se usa EM-->
+                    <p>Cosas que los gatos <em>Aman</em>:</p>
+                    <ul>
+                        <li>Unorder list elemento</li>
+                        <li>Elemento de la lista</li>
+                        <li>Menta gatuna</li>
+                        <li>Apuntadores laser</li>
+                    <!--* Tachar texto con la etiqueta con S -->
+                        <li><s>Lassaña</s></li>
+                    </ul>
+                    <!-- * Lista ordenada-->
+                    <!--* Etiqueta STRONG para texto importante  -->
+                    <p>Cosas que las gatos <strong>odian</strong></p>
+                    <ol>
+                        <li>Tratamientos antipulgas</li>
+                        <li>otros gatos</li>
+                        <li>Truenos</li>
+                    </ol>
 
-                <h3>Lista de gatos</h3>
-                <p>Cosas que los gatos aman:</p>
-                <ul>
-                    <li>Unorder list elemento</li>
-                    <li>Elemento de la lista</li>
-                    <li>Menta gatuna</li>
-                    <li>Apuntadores laser</li>
-                    <li>Lassaña</li>
-                </ul>
-                <!-- * Lista ordenada-->
-                <p>Cosas que las gatos odian</p>
-                <ol>
-                    <li>Tratamientos antipulgas</li>
-                    <li>otros gatos</li>
-                    <li>Truenos</li>
-                </ol>
+                    <img src="imagenes/gatitos.jpg" alt="">
 
-                <img src="imagenes/gatitos.jpg" alt="">
+                </div>
+
+                <!--* aGREGAR UN FORMULARIO con la etiqueta form e input para obtener un valor-->
+                <form action="">
+                                    <!-- * Texto marcador de posicio PLACEHOLDER-->
+                    <!--* Crear un campo que no este vacio con REQUIRED-->
+                    <input type="text" placeholder="URL de la foto de tu gato" required>
+                    <button type="submit"> Enviar</button>
+                </form>
+
+                <!--* formulario de tipo Botones de radio -->
+                <form action="">
+                        <p>Donde prefiere tu gato estarse? </p>
+                        <!--*  grupo de botones de radio con el atributo NAME-->
+                        <!--* salto de linea con la etiqueta BR line break-->
+                        <!--* con VALUE le damos al servidor la informaciun de cual opcion selecciono el usuario-->
+                        <label for="int"><input id="int" type="radio" name="interior-exterior" checked value="int">Interior</label>
+                        <br>
+                        <label for="ext"><input id="ext" type="radio" name="interior-exterior" value="ext">Exterior</label>
+                </form>
+                <!--* Casillas de verificacion  con la etiqueta -->
+                <form action="">
+                    <p>Check boxes para saber como es tu pinche gato</p>
+                    <!--* Para poner una opcion marcada por defecto se pone el el INPUT un atributo llamado CHECKED-->
+                    <label for="cariñoso"><input name="personalida" type="checkbox" id="cariñoso" checked>Cariñoso</label> <br>
+                    <label for="perezoso"><input name="personalida" type="checkbox" id="perezoso">Perezoso</label> <br>
+                    <label for="malo"><input name="personalida" type="checkbox" id="malo">Malo</label> <br>
+
+                </form>
+                
+                
 
 
 
-
-
-
-        </body>
-
-
-    </main>
-
+        </main>
+<!--* Pie de pagina despues de MAIN-->
+        <footer>
+            <!--* hACER EL TEXTO mas pequeño-->
+            <p><small>Esto es un pie de pagina</small> </p>
+            <p> <small>Todos los derechos reservados a <a href="http://www.facebook.com">IJUEPVTA.COM</a></small> </p>
+        </footer>
+    </body>
 
 </html>
 
