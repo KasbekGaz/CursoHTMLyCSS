@@ -92,3 +92,9 @@ img {
     border-style: ridge dotted;
 }*/
 
+/* !  creamos una propiedad para redondear las esquinas*/
+
+.bordes-redondeados {
+    border-radius: 20%;
+}
+
