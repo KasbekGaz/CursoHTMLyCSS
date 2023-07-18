@@ -30,6 +30,7 @@ img {
     /*margin: 15px; arriba derecha abajo izquierda*/ 
     /*margin: 10px 12px  que es top/bottom y dere/izq*/
     margin: 20px 15px 10px 25px;
+    padding: 25px;
     background-color: purple;
     border-width: 2px;
     border-color: black;
