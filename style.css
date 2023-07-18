@@ -107,5 +107,30 @@ div {
     background-color: blueviolet;
 }
 */
-/*! idenmtificadoe ID*/
 
+
+/*! identificador ID*/
+
+#listaG {
+    font-size: 25px;
+    color:greenyellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#gatosjpg {
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+}
+
+#amanlist {
+    font-size: 15px;
+    color: darkcyan;
+}
+
+#odianlist {
+    font-size: smaller;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
