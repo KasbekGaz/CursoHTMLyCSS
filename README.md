@@ -41,3 +41,7 @@ Esto es un lenguaje basado en reglas, no se que es pero en las notas de obsidian
    Se añade este elemnto a la etiqueta HEAD para describir el estilo. Dentro de la etiqueta style podemos poner un apuntador, donde por jemplo podemos poner a todos los h2 un colorr azul.
 3. Crear un archivo CSS
    Donde podemos poner todas esas reglas y vincular el archivo CSS al HTML.
+
+#### Font-family
+
+Se usa para una lista de fuentes o familias de fuentes, con un orden de prioridad, para utilizar en un elemento seleccionado.

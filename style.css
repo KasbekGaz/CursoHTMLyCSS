@@ -40,9 +40,33 @@ ol {
 
 
 */
-/* reutilizar un estilo en varias etiquetas*/
+/* reutilizar un estilo en varias etiquetas
 .lista-gatos {
     color:chocolate;
 }
+*/
 
+/* Cambiar el tamaño de las letras o de los titulos.
+h1{
+    font-size: 80px;
+}
+h2 {
+    font-size: 25px;
+}
+*/
 
+/* diferentes selectores mismo atributo el tamaño de la letra
+p,
+ul,
+ol {
+    font-size: 20px;
+}
+*/
+
+/**/
+
+li {
+    color: brown;
+    font-size: 20px;
+    font-family: Verdana;
+}
