@@ -11,10 +11,10 @@ p {
 }  */
 
 
-/* esto es un comentario en css*/
-/*cuando escribimos por ejemplo h2 ese es un selector
-que apunta a un tipod e elemento.
-- selectores basicos:
+/** esto es un comentario en css*/
+/* *cuando escribimos por ejemplo h2 ese es un selector
+* que apunta a un tipod e elemento.
+* - selectores basicos:
 De tipo
 De clase
 De ID
@@ -26,7 +26,7 @@ Atributo
 /*
 
 
-selector de clase para una lista NO  ordenada
+! selector de clase para una lista NO  ordenada
 
 ul {
     color:chocolate
@@ -40,13 +40,13 @@ ol {
 
 
 */
-/* reutilizar un estilo en varias etiquetas
+/* ! Reutilizar un estilo en varias etiquetas
 .lista-gatos {
     color:chocolate;
 }
 */
 
-/* Cambiar el tamaño de las letras o de los titulos.
+/*! Cambiar el tamaño de las letras o de los titulos.
 h1{
     font-size: 80px;
 }
@@ -55,7 +55,7 @@ h2 {
 }
 */
 
-/* diferentes selectores mismo atributo el tamaño de la letra
+/*! diferentes selectores mismo atributo el tamaño de la letra
 p,
 ul,
 ol {
@@ -72,10 +72,23 @@ li {
 }
 */
 
-/*Ahora con google fonts
+/*! Ahora con google fonts
 
 h1 {
     font-family: 'Noto Sans Cypro Minoan', sans-serif;
 }
 */
+
+/*! Tamaño de las imagenes 
+img {
+    width: 150px;
+}
+*/
+/*
+.imgato {
+    width: 300px;
+    border-width: 5px;
+    border-color: red;
+    border-style: ridge dotted;
+}*/
 
