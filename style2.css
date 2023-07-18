@@ -1,0 +1,42 @@
+/*! como poner un padding*/
+
+div {
+    background-color: greenyellow;
+}
+/*
+img {
+    padding: 15px;
+    background-color: purple;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}*/
+
+/*! padding a cada uno de los lados del elemento*/
+
+img {
+/*
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+*/
+
+    /*? En una sola linea en sentido de las manecillas del reloj*/
+
+    /*padding: 20px 15px 5px 10px;*/
+
+    /*! Margen elementos que se pueden separar con margen*/
+    /*margin: 15px; arriba derecha abajo izquierda*/ 
+    /*margin: 10px 12px  que es top/bottom y dere/izq*/
+    margin: 20px 15px 10px 25px;
+    background-color: purple;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+
+
+
