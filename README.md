@@ -45,3 +45,10 @@ Esto es un lenguaje basado en reglas, no se que es pero en las notas de obsidian
 #### Font-family
 
 Se usa para una lista de fuentes o familias de fuentes, con un orden de prioridad, para utilizar en un elemento seleccionado.
+
+## Selectores de atributos:
+
+Se usan los selectores de atributo para seleccionar elementos definidos con unos atributos determindaos.
+### presencia y valor
+href es un ejemplo
+attr a[title] 

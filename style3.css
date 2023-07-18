@@ -1,0 +1,18 @@
+/* si el elemento imagen no tiene este atributo no va tener el efecto*/
+img[alt] {
+    border-radius: 50%;
+}
+
+input[type="radio"] {
+    margin: 5px;
+}
+
+input[type="checkbox"] {
+    margin: 8px;
+}
+
+a[href="http://www.facebook.com"] {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
