@@ -6,10 +6,16 @@ h3 {
     color:aquamarine;
 }
 
-p {
+p {/*tipo de elemento*/
     color:purple;
 }
 /* esto es un comentario en css*/
 /*cuando escribimos por ejemplo h2 ese es un selector
 que apunta a un tipod e elemento.
+- selectores basicos:
+De tipo
+De clase
+De ID
+Universal *{color: purple}
+Atributo
 */
