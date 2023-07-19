@@ -42,7 +42,7 @@ Esto es un lenguaje basado en reglas, no se que es pero en las notas de obsidian
 3. Crear un archivo CSS
    Donde podemos poner todas esas reglas y vincular el archivo CSS al HTML.
 
-#### Font-family
+## Font-family
 
 Se usa para una lista de fuentes o familias de fuentes, con un orden de prioridad, para utilizar en un elemento seleccionado.
 
@@ -76,4 +76,13 @@ em tamaño de letra del elemento padre
 rem tamaño de la letra del elemento raiz
 vw 1% del ancho de la ventana grafica
 vh 1% de la altura de la ventana grafica
+
+## Soluciones de compatibilidad
+Se debe especificar el valor de respaldo, antes de el de la variable.
+´.pinguino {
+   background: black;
+   background: var(--pinguino-piel);
+}´
+> Deben agregarse ambas para que tenga como un 3er respaldo.
+>Si hay un valor de typeo, pues no se puede omitir los valores de respaldo, si no se detecta la variable habria un error en la grafica.
 

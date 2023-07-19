@@ -1,6 +1,15 @@
+/** heredar varibales de CSS*/
+:root { /** asi va selecionar la raiz todo el documento HTML*/
+--pinguino-barriga:pink;
+}
+
+body {
+    background: var(--pinguino-barriga, #c6faf1);
+}
+
 .pinguino {
 /** esto ers una variable en CSS*/
---pinguino-barriga: white;
+
 --pinguino-pico: orange;
 /** crear y usar una variable*/
 --pinguino-piel: blue;
