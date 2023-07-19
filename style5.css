@@ -1,0 +1,26 @@
+.texto-azul {
+    color:blue;
+}
+
+.texto-morado { /*! la ultima clase es la que tiene prioridad*/
+    color:purple;
+}
+
+/*! prioridad de un subrayado en un link*/
+
+a { /** este es mas generica pero no es prioridad*/
+    text-decoration: purple wavy underline;
+}
+
+.subrayado { /** este tuvo mas prioridad porque es una clase*/
+    text-decoration: none;
+}
+
+/*! priodidad clase vs id*/
+#titulo {  /** ID tiene mas prioridad por encima de los anteriores*/
+    color: cadetblue;
+}
+
+.texto {
+    color: brown;
+}

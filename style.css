@@ -134,3 +134,10 @@ div {
     font-size: smaller;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+/** etiqueta body pa ver si esta*/
+
+body {
+    background-color: aqua;
+    color:blueviolet
+}
