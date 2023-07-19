@@ -1,0 +1,34 @@
+/*! codigo hexadecimal*/
+/** 0-9 A-F  de 16 digitos*/
+/** #00000 es es negro */
+/** * 00  00  00 */
+/** rojo verde azul */
+
+div{
+    background-color: #0000ff;
+}
+
+h2 {
+    color: #234578;
+}
+
+img {
+    border-radius: 20%;
+    color: #eb3456;;
+}
+
+a { /** abreviar algunos colores*/
+    color: #f0f0ff;
+    border-color: #0f0; /** solo cuando se repiten en pares*/
+}
+/*! codigo RGB*/
+/** va de 0-255 0-255 0-255 ejemplo 255,255,255*/
+
+h2 {
+    color: rgb(255, 255, 255);
+} 
+
+.picodegallo {
+    color:rgb(143, 69, 160);
+    background-color: rgba(123, 126, 234, 0.34);
+}
