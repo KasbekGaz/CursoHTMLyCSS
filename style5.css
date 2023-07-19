@@ -24,3 +24,7 @@ a { /** este es mas generica pero no es prioridad*/
 .texto {
     color: brown;
 }
+
+#titulo2 { /** si ponemos esta palabra hacemos que el editor haga como prioridad este esstilo sobre los otros*/
+    color: black !important;
+}
