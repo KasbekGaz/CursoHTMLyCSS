@@ -49,6 +49,31 @@ Se usa para una lista de fuentes o familias de fuentes, con un orden de priorida
 ## Selectores de atributos:
 
 Se usan los selectores de atributo para seleccionar elementos definidos con unos atributos determindaos.
+
 ### presencia y valor
+
 href es un ejemplo
-attr a[title] 
+attr a[title]
+
+## Unidades absolutas y relativas:
+
+200px son unidades absolutas
+los valores 20vw viewport es una unidad relativa
+y 15 em es tambien relativa a el tamaño de letra.
+
+### longitudes absolutas
+
+cm centimetros
+in pulgadas
+px pixeles
+son utlices cuando se usan en un formato de salida impreso.
+
+### longitudes relativas
+
+como el tamaño de la letra dele lemento principal o el tamaño de la ventana grafica.
+
+em tamaño de letra del elemento padre
+rem tamaño de la letra del elemento raiz
+vw 1% del ancho de la ventana grafica
+vh 1% de la altura de la ventana grafica
+
